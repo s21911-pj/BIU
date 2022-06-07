@@ -1,0 +1,80 @@
+body {
+  background: white;
+
+}
+
+.title {
+  color: yellow;
+  text-decoration-color: blueviolet;
+  text-shadow: 5px 5px darkviolet;
+  font-size: 50px;
+  font-family: fantasy;
+  text-align: center;
+
+}
+.user-profile #img {
+  display: block;
+  margin-left: fill;
+  width: 150px;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.user-profile {
+  margin: auto;
+  width: 50%;
+  height: 200px;
+  background: white;
+  border-radius: 20px;
+}
+
+
+
+.user-profile  #name {
+  direction: rtl;
+  text-shadow: 5px 5px yellow;
+  margin-top: -200px;
+  margin-right: 25px;
+  color: darkviolet;
+  font-size: 25px;
+  font-family: "fantasy";
+  font-weight: bold;
+}
+
+#username, #email, #city{
+
+  color: darkviolet;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "fantasy";
+}
+
+.description {
+  margin: 50px auto auto 160px;
+  width: 18em;
+  color: black;
+  font-size: 20px;
+  font-family: "fantasy";
+  text-shadow: 5px 5px yellow;
+}
+
+
+
+button {
+  margin:  auto;
+  height: 40px;
+  background: yellow;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: darkviolet;
+  font-family: "fantasy";
+  font-size: 20px;
+}
+
+button:hover {
+  background: blueviolet;
+}
